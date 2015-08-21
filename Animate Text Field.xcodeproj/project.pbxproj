@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B13F2D91B87069E00DD2CEF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13F2D81B87069E00DD2CEF /* AppDelegate.swift */; };
+		3B13F2DB1B87069E00DD2CEF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13F2DA1B87069E00DD2CEF /* ViewController.swift */; };
+		3B13F2DE1B87069E00DD2CEF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F2DC1B87069E00DD2CEF /* Main.storyboard */; };
+		3B13F2E01B87069E00DD2CEF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F2DF1B87069E00DD2CEF /* Images.xcassets */; };
+		3B13F2E31B87069E00DD2CEF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B13F2E11B87069E00DD2CEF /* LaunchScreen.xib */; };
+		3B13F2EF1B87069E00DD2CEF /* Animate_Text_FieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B13F2EE1B87069E00DD2CEF /* Animate_Text_FieldTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B13F2E91B87069E00DD2CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B13F2CB1B87069E00DD2CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B13F2D21B87069E00DD2CEF;
+			remoteInfo = "Animate Text Field";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B13F2D31B87069E00DD2CEF /* Animate Text Field.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animate Text Field.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B13F2D71B87069E00DD2CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B13F2D81B87069E00DD2CEF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B13F2DA1B87069E00DD2CEF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B13F2DD1B87069E00DD2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B13F2DF1B87069E00DD2CEF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B13F2E21B87069E00DD2CEF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3B13F2E81B87069E00DD2CEF /* Animate Text FieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animate Text FieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B13F2ED1B87069E00DD2CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B13F2EE1B87069E00DD2CEF /* Animate_Text_FieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animate_Text_FieldTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B13F2D01B87069E00DD2CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B13F2E51B87069E00DD2CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B13F2CA1B87069E00DD2CEF = {
+			isa = PBXGroup;
+			children = (
+				3B13F2D51B87069E00DD2CEF /* Animate Text Field */,
+				3B13F2EB1B87069E00DD2CEF /* Animate Text FieldTests */,
+				3B13F2D41B87069E00DD2CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B13F2D41B87069E00DD2CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F2D31B87069E00DD2CEF /* Animate Text Field.app */,
+				3B13F2E81B87069E00DD2CEF /* Animate Text FieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B13F2D51B87069E00DD2CEF /* Animate Text Field */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F2D81B87069E00DD2CEF /* AppDelegate.swift */,
+				3B13F2DA1B87069E00DD2CEF /* ViewController.swift */,
+				3B13F2DC1B87069E00DD2CEF /* Main.storyboard */,
+				3B13F2DF1B87069E00DD2CEF /* Images.xcassets */,
+				3B13F2E11B87069E00DD2CEF /* LaunchScreen.xib */,
+				3B13F2D61B87069E00DD2CEF /* Supporting Files */,
+			);
+			path = "Animate Text Field";
+			sourceTree = "<group>";
+		};
+		3B13F2D61B87069E00DD2CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F2D71B87069E00DD2CEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B13F2EB1B87069E00DD2CEF /* Animate Text FieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F2EE1B87069E00DD2CEF /* Animate_Text_FieldTests.swift */,
+				3B13F2EC1B87069E00DD2CEF /* Supporting Files */,
+			);
+			path = "Animate Text FieldTests";
+			sourceTree = "<group>";
+		};
+		3B13F2EC1B87069E00DD2CEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B13F2ED1B87069E00DD2CEF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B13F2D21B87069E00DD2CEF /* Animate Text Field */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B13F2F21B87069E00DD2CEF /* Build configuration list for PBXNativeTarget "Animate Text Field" */;
+			buildPhases = (
+				3B13F2CF1B87069E00DD2CEF /* Sources */,
+				3B13F2D01B87069E00DD2CEF /* Frameworks */,
+				3B13F2D11B87069E00DD2CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animate Text Field";
+			productName = "Animate Text Field";
+			productReference = 3B13F2D31B87069E00DD2CEF /* Animate Text Field.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B13F2E71B87069E00DD2CEF /* Animate Text FieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B13F2F51B87069E00DD2CEF /* Build configuration list for PBXNativeTarget "Animate Text FieldTests" */;
+			buildPhases = (
+				3B13F2E41B87069E00DD2CEF /* Sources */,
+				3B13F2E51B87069E00DD2CEF /* Frameworks */,
+				3B13F2E61B87069E00DD2CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B13F2EA1B87069E00DD2CEF /* PBXTargetDependency */,
+			);
+			name = "Animate Text FieldTests";
+			productName = "Animate Text FieldTests";
+			productReference = 3B13F2E81B87069E00DD2CEF /* Animate Text FieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B13F2CB1B87069E00DD2CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = JayAng;
+				TargetAttributes = {
+					3B13F2D21B87069E00DD2CEF = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3B13F2E71B87069E00DD2CEF = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3B13F2D21B87069E00DD2CEF;
+					};
+				};
+			};
+			buildConfigurationList = 3B13F2CE1B87069E00DD2CEF /* Build configuration list for PBXProject "Animate Text Field" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B13F2CA1B87069E00DD2CEF;
+			productRefGroup = 3B13F2D41B87069E00DD2CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B13F2D21B87069E00DD2CEF /* Animate Text Field */,
+				3B13F2E71B87069E00DD2CEF /* Animate Text FieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B13F2D11B87069E00DD2CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B13F2DE1B87069E00DD2CEF /* Main.storyboard in Resources */,
+				3B13F2E31B87069E00DD2CEF /* LaunchScreen.xib in Resources */,
+				3B13F2E01B87069E00DD2CEF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B13F2E61B87069E00DD2CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B13F2CF1B87069E00DD2CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B13F2DB1B87069E00DD2CEF /* ViewController.swift in Sources */,
+				3B13F2D91B87069E00DD2CEF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B13F2E41B87069E00DD2CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B13F2EF1B87069E00DD2CEF /* Animate_Text_FieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B13F2EA1B87069E00DD2CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B13F2D21B87069E00DD2CEF /* Animate Text Field */;
+			targetProxy = 3B13F2E91B87069E00DD2CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B13F2DC1B87069E00DD2CEF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B13F2DD1B87069E00DD2CEF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B13F2E11B87069E00DD2CEF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B13F2E21B87069E00DD2CEF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B13F2F01B87069E00DD2CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B13F2F11B87069E00DD2CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B13F2F31B87069E00DD2CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animate Text Field/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B13F2F41B87069E00DD2CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Animate Text Field/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B13F2F61B87069E00DD2CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Animate Text FieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animate Text Field.app/Animate Text Field";
+			};
+			name = Debug;
+		};
+		3B13F2F71B87069E00DD2CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Animate Text FieldTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animate Text Field.app/Animate Text Field";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B13F2CE1B87069E00DD2CEF /* Build configuration list for PBXProject "Animate Text Field" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13F2F01B87069E00DD2CEF /* Debug */,
+				3B13F2F11B87069E00DD2CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B13F2F21B87069E00DD2CEF /* Build configuration list for PBXNativeTarget "Animate Text Field" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13F2F31B87069E00DD2CEF /* Debug */,
+				3B13F2F41B87069E00DD2CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B13F2F51B87069E00DD2CEF /* Build configuration list for PBXNativeTarget "Animate Text FieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B13F2F61B87069E00DD2CEF /* Debug */,
+				3B13F2F71B87069E00DD2CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B13F2CB1B87069E00DD2CEF /* Project object */;
+}
